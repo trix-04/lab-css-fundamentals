@@ -1,0 +1,96 @@
+:root {
+    --main-color: #0f1417;
+    --font-family-LB:"Libre Baskerville";
+}
+
+body{
+    font-family:var(--font-family-LB);
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(34,193,195);
+    background: linear-gradient(146deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 20px;
+    padding: 50px;
+}
+
+form{
+    background-color: rgb(224, 233, 242);
+    padding: 40px;
+    border: 5px solid #ece030;
+    border-radius: 50px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    margin: 10px;
+    border: 1px solid #645e0e;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  
+h1{
+    text-align:center;
+    color:var(--main-color);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: var(--main-color);
+    line-height: normal;
+    font-family: var(--font-family-LB);
+    font-weight: 450;
+    font-size: x-large;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap:100px;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 10px;
+  color: var(--main-color);
+  text-align: center;
+  cursor: grab;
+  flex-basis: 200px;
+  border-radius: 5px;
+  font-family: var(--font-family-LB);
+  font-size: 16px;
+  border:none;
+  min-width: 150px;
+}
+
+.reset-button {
+  background: white;
+}
+
+.reset-button:hover{
+  background-color: rgb(220, 64, 64);
+}
+
+.submit-button{
+  background-color: white;
+}
+
+.submit-button:hover{
+  background-color: rgb(106, 227, 108);
+}
+
+footer {
+  position: center;
+  left: 0;
+  bottom: 0;
+  font-size: 10px;
+}
+
